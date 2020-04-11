@@ -11,12 +11,7 @@ Covid 19 Information Updated using MYSQL and PHP With An Simple Script made by B
         $death = $row["death"];
         $updated = $row["updated"];
 2. config.php - This file required your current database details like host_name,username,password,database name
-3. admin.php - This is an simple admin file to add all details of Cvoid 19 (Total Case, Recovery, Death, and Updated Date and Time
- Example :   <input type="text" name = "field2"  class="validate"  id="icon_prefix"/>
-<input type="text" name = "field3"  class="validate"  id="icon_prefix1"/>
-<input type="text" name = "field4"  class="validate"  id="icon_prefix3"/>
-<input type="hidden" name = "field5"  class="validate"  id="icon_prefix3" value="<?php echo date("Y-m-d");?>"><?php echo date("Y-m-d");?>
-
+3. admin.php - This is an simple admin file to add all details of Cvoid 19 (Total Case, Recovery, Death, and Updated Date and Time)
 4. add.php - This file insert data in Mysql Table. (this file attached with admin.php)
  Example:
     $query = "INSERT INTO coivd (total, recovery, death, updated)
