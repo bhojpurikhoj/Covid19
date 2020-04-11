@@ -1,6 +1,6 @@
 <?php 
-$username = "sarkaris_covid19"; 
-$password = "sarkaris_covid19"; 
-$database = "sarkaris_covid19"; 
+$username = "databse_username"; 
+$password = "daytabase_password"; 
+$database = "database_name"; 
 $mysqli = new mysqli("localhost", $username, $password, $database); 
 ?>
